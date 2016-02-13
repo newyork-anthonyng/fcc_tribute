@@ -1,0 +1,45 @@
+$breakpoint-small: 600px;
+$wrapper-background-color: #f5f5ff;
+
+h1, h2, p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+
+  @media (min-width: $breakpoint-small) {
+    width: 30%;
+  }
+}
+
+.wrapper {
+  background-color: $wrapper-background-color;
+  padding: 1%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  @media (min-width: $breakpoint-small) {
+  }
+}
+
+.footer {
+  width: 90%;
+  clear: both;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+  .wrapper {
+    @media (min-width: $breakpoint-small) {
+      width: 44%;
+      margin: 1em 2%;
+      float: left;
+    }
+  }
+}
