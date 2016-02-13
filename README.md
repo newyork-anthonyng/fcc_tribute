@@ -1,7 +1,7 @@
 ## Tribute Page
 This is another front-end project for freecodecamp.com. I will be creating a tribute page to Steve Jobs.
 
-## Not yet hosted
+## Hosted on [Github](http://newyork-anthonyng.github.io/fcc_tribute/)
 
 ## Tools Used
 jQuery, HTML and SASS/CSS
